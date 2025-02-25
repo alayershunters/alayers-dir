@@ -87,46 +87,58 @@ After selecting one of the options, you will be prompted to enter the URL and ou
 
 ---
 
-## **Running Alayers Dir Anywhere (Linux)**
+## **Running Alayers Dir Anywhere (Linux)** 
 
-To run **Alayers Dir** from anywhere on Linux, you need to add the tool’s path to your **PATH environment variable**.
+To run **Alayers Dir** from anywhere in the terminal on Linux, you need to install it first using the `installer.py` file provided.
 
 ### **Steps:**
 
-1. **Clone the Repository to the Desired Directory**
+1. **Clone the Repository to Your Desired Directory**
 
-   Clone the **Alayers Dir** repository into the desired directory:
+   Clone the **Alayers Dir** repository into the directory you prefer:
 
    ```bash
    git clone https://github.com/alayers-cyber/alayers-dir.git
    cd alayers-dir
    ```
 
-2. **Add the Path to the `PATH` Variable**
+2. **Run the Installer for Global Installation**
 
-   Add the directory where **Alayers Dir** is located to your `PATH` environment variable. This can be done by adding the following line to your shell configuration file (`~/.bashrc` or `~/.zshrc`, depending on the shell you use):
+   Once inside the **Alayers Dir** directory, run the `installer.py` file using the following command to install **Alayers Dir** so you can run it from anywhere:
+
+   ```bash
+   python3 installer.py
+   ```
+
+   This command will automatically add **Alayers Dir** to your **PATH environment variable**, allowing you to access it from any terminal location.
+
+3. **Run the Tool from Anywhere**
+
+   After installation is complete, you can now run **Alayers Dir** from any terminal by simply typing:
+
+   ```bash
+   alayers-dir
+   ```
+
+4. **Manually Add Path (Optional)**
+
+   If you prefer to manually add the path, you can do so by adding the directory of **Alayers Dir** to your **PATH environment variable**:
+
+   Add the following line to your `~/.bashrc` or `~/.zshrc` file (depending on which shell you're using):
 
    ```bash
    export PATH="$PATH:/path/to/alayers-dir"
    ```
 
-   Replace `/path/to/alayers-dir` with the actual path where **Alayers Dir** is located.
+   Replace `/path/to/alayers-dir` with the actual path to your **Alayers Dir** directory.
 
-3. **Activate the Changes**
+5. **Activate Changes**
 
    After adding the path to your shell configuration file, activate the changes by running:
 
    ```bash
    source ~/.bashrc    # If you're using bash
    source ~/.zshrc     # If you're using zsh
-   ```
-
-4. **Run the Tools from Anywhere**
-
-   Now, you can run **Alayers Dir** from any terminal by simply typing:
-
-   ```bash
-   alayers.py
    ```
 
 ---
@@ -231,9 +243,11 @@ Setelah memilih salah satu opsi, Anda akan diminta untuk memasukkan URL dan file
 
 ---
 
+---
+
 ## **Menjalankan Alayers Dir di Mana Saja (Linux)**
 
-Agar **Alayers Dir** bisa dijalankan dari mana saja di terminal Linux, Anda perlu menambahkan path ke skrip ke dalam **PATH environment variable**.
+Agar **Alayers Dir** bisa dijalankan dari mana saja di terminal Linux, Anda perlu menginstalnya terlebih dahulu menggunakan file `installer.py` yang sudah disediakan.
 
 ### **Langkah-langkah:**
 
@@ -246,9 +260,29 @@ Agar **Alayers Dir** bisa dijalankan dari mana saja di terminal Linux, Anda perl
    cd alayers-dir
    ```
 
-2. **Tambahkan Path ke dalam `PATH`**
+2. **Jalankan Installer untuk Instalasi Global**
 
-   Tambahkan direktori tempat **Alayers Dir** berada ke dalam environment `PATH` Anda. Ini bisa dilakukan dengan menambahkan baris berikut ke dalam file `~/.bashrc` atau `~/.zshrc` (tergantung shell yang Anda gunakan):
+   Setelah Anda berada di dalam direktori **Alayers Dir**, jalankan `installer.py` dengan perintah berikut untuk menginstal **Alayers Dir** agar dapat dijalankan dari mana saja:
+
+   ```bash
+   python3 installer.py
+   ```
+
+   Perintah ini akan menambahkan **Alayers Dir** ke dalam **PATH environment variable**, sehingga Anda dapat mengaksesnya dari terminal mana saja tanpa perlu berada di dalam direktori tersebut.
+
+3. **Menjalankan Tools dari Mana Saja**
+
+   Setelah instalasi berhasil, Anda sekarang dapat menjalankan **Alayers Dir** di terminal manapun dengan mengetikkan perintah:
+
+   ```bash
+   alayers.py
+   ```
+
+4. **Menambahkan Path Secara Manual (Opsional)**
+
+   Jika Anda lebih suka menambahkan path secara manual, Anda bisa menambahkan direktori **Alayers Dir** ke dalam **PATH environment variable** dengan cara berikut:
+
+   Tambahkan baris berikut ke dalam file `~/.bashrc` atau `~/.zshrc` (tergantung shell yang Anda gunakan):
 
    ```bash
    export PATH="$PATH:/path/to/alayers-dir"
@@ -256,7 +290,7 @@ Agar **Alayers Dir** bisa dijalankan dari mana saja di terminal Linux, Anda perl
 
    Gantilah `/path/to/alayers-dir` dengan path yang sesuai dengan lokasi direktori **Alayers Dir** Anda.
 
-3. **Aktifkan Perubahan**
+5. **Aktifkan Perubahan**
 
    Setelah menambahkan path ke dalam file konfigurasi shell, aktifkan perubahan dengan menjalankan perintah berikut:
 
@@ -265,15 +299,8 @@ Agar **Alayers Dir** bisa dijalankan dari mana saja di terminal Linux, Anda perl
    source ~/.zshrc     # Jika Anda menggunakan zsh
    ```
 
-4. **Menjalankan Tools dari Mana Saja**
-
-   Sekarang Anda dapat menjalankan **Alayers Dir** dari terminal mana saja dengan cukup mengetikkan:
-
-   ```bash
-   alayers.py
-   ```
-
 ---
+
 
 ## **Kontak**
 
