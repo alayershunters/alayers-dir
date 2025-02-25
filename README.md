@@ -1,5 +1,3 @@
-Tentu! Berikut adalah versi Bahasa Inggris dari **README.md** yang kamu buat:
-
 ---
 
 # **Alayers Dir** 🔥🕵️‍♂️
