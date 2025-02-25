@@ -148,9 +148,6 @@ To run **Alayers Dir** from anywhere in the terminal on Linux, you need to insta
 - LinkedIn: [alwialhadad](https://id.linkedin.com/in/alwialhadad)
 - Instagram: [@alwi_alpariamani](https://www.instagram.com/alwi_alpariamani)
 
----
-
-Tentu! Berikut adalah versi **README.md** yang sesuai dengan permintaan Anda, tanpa penjelasan mengenai **colorama**:
 
 ---
 
