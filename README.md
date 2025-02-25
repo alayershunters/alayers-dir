@@ -137,10 +137,9 @@ To run **Alayers Tools** from anywhere on Linux, you need to add the tool’s pa
 
 - LinkedIn: [alwialhadad](https://id.linkedin.com/in/alwialhadad)
 - Instagram: [@alwi_alpariamani](https://www.instagram.com/alwi_alpariamani)
+- Email: alayersattackers@gmail.com
 
 ---
-
-Semoga ini mempermudah pengguna yang lebih suka menggunakan Bahasa Inggris! Jika ada penyesuaian yang ingin kamu buat, beri tahu saya ya! 😊
 
 # **Alayers Dir** 🔥🕵️‍♂️
 
