@@ -45,7 +45,7 @@ To install **Alayers Dir** on your system, follow these steps:
 Clone the **Alayers Dir** repository using `git`:
 
 ```bash
-git clone https://github.com/alayers-cyber/alayers-dir.git
+git clone https://github.com/alayershunters/alayers-dir.git
 cd alayers-dir
 ```
 
@@ -98,7 +98,7 @@ To run **Alayers Dir** from anywhere in the terminal on Linux, you need to insta
    Clone the **Alayers Dir** repository into the directory you prefer:
 
    ```bash
-   git clone https://github.com/alayers-cyber/alayers-dir.git
+   git clone https://github.com/alayershunters/alayers-dir.git
    cd alayers-dir
    ```
 
@@ -198,7 +198,7 @@ Untuk menginstal **Alayers Dir** di sistem Anda, ikuti langkah-langkah berikut:
 Clone repository **Alayers Dir** menggunakan `git`:
 
 ```bash
-git clone https://github.com/alayers-cyber/alayers-dir.git
+git clone https://github.com/alayershunters/alayers-dir.git
 cd alayers-dir
 ```
 
@@ -253,7 +253,7 @@ Agar **Alayers Dir** bisa dijalankan dari mana saja di terminal Linux, Anda perl
    Clone repository **Alayers Dir** ke dalam direktori yang Anda inginkan:
 
    ```bash
-   git clone https://github.com/alayers-cyber/alayers-dir.git
+   git clone https://github.com/alayershunters/alayers-dir.git
    cd alayers-dir
    ```
 
