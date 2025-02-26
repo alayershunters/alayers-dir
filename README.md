@@ -151,9 +151,9 @@ To run **Alayers Dir** from anywhere in the terminal on Linux, you need to insta
 
 ---
 
-# **Alayers Tools** 🔥🕵️‍♂️
+# **Alayers Dir** 🔥🕵️‍♂️
 
-**Alayers Tools** adalah sekumpulan alat yang dirancang untuk membantu menemukan direktori dan file tersembunyi di situs web. Tools ini menggunakan beberapa alat populer seperti `Subfinder`, `Httpx-toolkit`, dan `Dirsearch` untuk melakukan pemindaian.
+**Alayers Dir** adalah sekumpulan alat yang dirancang untuk membantu menemukan direktori dan file tersembunyi di situs web. Tools ini menggunakan beberapa alat populer seperti `Subfinder`, `Httpx-toolkit`, dan `Dirsearch` untuk melakukan pemindaian.
 
 ---
 
