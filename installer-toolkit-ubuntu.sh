@@ -85,11 +85,8 @@ fi
 if ! command -v paramspider &> /dev/null
 then
     tampilkan_pesan "Menginstal ParamSpider..."
-    git clone https://github.com/devanshbatham/paramspider.git
-    cd paramspider
-    sudo pip install . --break-system-packages
+    sudo apt install -y paramspider
     echo -e "\e[1;32m[INFO] ParamSpider berhasil diinstal!\e[0m ✔"
-    cd ~
 else
     echo -e "\e[1;32m[INFO] ParamSpider sudah terinstal!\e[0m ✔"
 fi
