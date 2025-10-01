@@ -45,9 +45,22 @@ cd "$TOOL_DIR"
 curl -s "$PYTHON_UPDATER_URL" -o updater.py
 
 if [ $? -ne 0 ]; then
-    echo "[X] ERROR: Gagal mengunduh updater.py."
+    echo "[X] ERROR: Gagal mengunduh updater.py (Kode Keluar Curl: $?)."
     exit 1
 fi
+
+# Pengecekan Integritas Konten: Jika file terlalu kecil (misalnya < 100 byte), 
+# kemungkinan besar isinya adalah pesan error GitHub (404/not found).
+FILE_SIZE=$(wc -c < updater.py)
+if [ "$FILE_SIZE" -lt 100 ]; then
+    echo "[X] ERROR: updater.py yang diunduh terlalu kecil ($FILE_SIZE bytes). Kemungkinan 404/Error."
+    echo "=== ISI UPDATER.PY (UNTUK DEBUGGING) ==="
+    cat updater.py
+    echo "========================================"
+    rm updater.py
+    exit 1
+fi
+
 
 # 3. Jalankan script Python updater
 echo "[-] Menjalankan pembaruan dependencies dan menimpa file..."
