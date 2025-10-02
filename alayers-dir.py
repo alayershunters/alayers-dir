@@ -11,7 +11,14 @@ from urllib.parse import urljoin
 init(autoreset=True)
 
 TELEGRAM_BOT_TOKEN = "8314104338:AAFicWVe1MuFyScNr-rwH1r2VyeD2Mxd9n0"
-TELEGRAM_ID_FILE = "telegram_chat_ids.json" 
+
+if os.path.islink(__file__):
+    SCRIPT_PATH = os.path.abspath(os.readlink(__file__))
+    SCRIPT_DIR = os.path.dirname(SCRIPT_PATH)
+else:
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+TELEGRAM_ID_FILE = os.path.join(SCRIPT_DIR, "telegram_chat_ids.json")
 
 ascii_art = Fore.GREEN + r"""
      _    _                           ____  _      
